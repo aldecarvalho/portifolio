@@ -1,0 +1,72 @@
+body {
+    background: gray ;
+    color: black;
+    height: 100%;
+    line-height: 1.5;
+    font-family: "Arial", Times, serif;
+}
+
+p {
+    text-align: justify;
+    text-align-last: left;
+    color: white;
+}
+
+h1 {
+    margin: 20
+}
+
+a {
+    color: white;
+}
+
+#nome{
+    text-align: center;
+}
+.menu ul li a:hover {
+    background-color: darkblue;
+    color: #6D6D6D;
+    border-bottom: 3px solid darkblue;
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    list-style: none;
+    width: 93%;
+}
+
+.menu ul li {
+    display: inline;
+    color:white;
+    background-color: black;
+    
+}
+
+.corpo div{
+    color:white;
+    background-color: gray;
+    width: 93%;
+}
+
+.fundo{
+    width:100%;
+    height: 100%;
+    background-image: url(/portfolio/imagens/fundo.jpg);
+}
+
+.foto{
+    width: 250px;
+    height: 250px;
+    vertical-align: middle;
+}
+.rodape ul{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    list-style: none;
+    width: 93%;
+    text-align: right;
+}
